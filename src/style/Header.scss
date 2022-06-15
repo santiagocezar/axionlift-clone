@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    padding: 0 1rem;
+    gap: 4rem;
+    justify-content: center;
+    height: 8rem;
+    align-items: stretch;
+}
+
+.logo {
+    height: 3.75rem;
+    align-self: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: contents;
+
+    ul {
+        display: flex;
+        font-size: .9rem;
+        font-weight: 600;
+        list-style: none;
+        text-transform: uppercase;
+
+        li {
+            height: 100%;
+            position: relative;
+
+            > a {
+                height: 100%;
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+            }
+
+            &:hover ul {
+                display: flex;
+            }
+            ul {
+                position: absolute;
+                flex-direction: column;
+                background-color: #ffaf0f;
+                top: 100%;
+                display: none;
+            }
+        }
+    }
+
+}

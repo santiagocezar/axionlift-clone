@@ -1,0 +1,51 @@
+.performance {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.performance h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.performance > p {
+    font-size: 1.5rem;
+}
+
+.perf-item {
+    display: flex;
+    margin: 4rem 4rem 0 4rem;
+    height:25rem;
+    
+    background-color: white;
+    color: black;
+}
+
+.perf-item img {
+    height: 100%;
+}
+
+.perf-body {
+    text-align: left;
+    padding: 8rem;
+}
+
+.perf-body .more {
+    font-weight: bold;
+}
+
+.solu {
+    display: flex;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.solu p {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    background-color: #ffaf0f;;
+    color: black;
+}

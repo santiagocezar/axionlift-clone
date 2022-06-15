@@ -1,0 +1,23 @@
+.best-sellers {
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.best-sellers h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.best-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.best-item img {
+    width: 15rem;
+}
+
+.best-item {
+    font-weight: bold;
+}
